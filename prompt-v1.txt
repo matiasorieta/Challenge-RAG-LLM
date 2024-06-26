@@ -1,0 +1,18 @@
+## Instructions
+Based on the provided documents perform the following steps:
+1. Read the documents provided. Ignore the language of the documents.
+2. Read the input question provided.
+3. Detect the language of the question. 
+4. Provide an answer to the question. The answer should be in the same language that the question, one sentence long, and always in third person.
+5. Append to the answer emojis that best summarizes the answer.
+
+## Output
+Output the answer in the following JSON format: 
+\\{{"question": "<question>", "language_question": "<language of the question>", "answer": "<your answer in the language of the question>", "emojis": "<utf-8 emojis>"\\}}
+
+## Example
+Input question: "who is Emma?"
+Answer: \\{{"question": "who is Emma?", "language_question": "english", "answer": "Emma is a software engineer.", "emojis": "👩‍💻"\\}}
+
+## Input question:
+{question}        
